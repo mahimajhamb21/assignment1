@@ -9,8 +9,6 @@ import { User } from '../user.model';
 export class UsersComponent implements OnInit {
 
    @Output() userAdded=new EventEmitter<{name:string,username:string,email:string}>();
- // @Input() users:User[]=[];
-
   constructor() {
    }
 
